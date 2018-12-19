@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1lN64ANGEemm7J1sf3ZzUA" name="UMLtestModel">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1vcN4ANGEemm7J1sf3ZzUA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="__G33UANGEemm7J1sf3ZzUA" name="Package1">
+    <packagedElement xmi:type="uml:Class" xmi:id="_BnUa0ANHEemm7J1sf3ZzUA" name="RegulationSystem">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JwEDkANHEemm7J1sf3ZzUA" name="maintainSpeed"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NU74gANHEemm7J1sf3ZzUA" name="waitForNextPeriod"/>
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_VhH20ANHEemm7J1sf3ZzUA" name="displayState"/>
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="_ZPyg8ANHEemm7J1sf3ZzUA" name="getSpeed"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bcIcsANHEemm7J1sf3ZzUA" name="RegulatorDisplay">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_erk0MANHEemm7J1sf3ZzUA" name="displayStatus"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lWRKkANHEemm7J1sf3ZzUA" name="RegulatorOnOffButton"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_3ovcYANHEemm7J1sf3ZzUA" name="Interaction1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o3tmIANJEemm7J1sf3ZzUA" name="regulatoronoffbutton" type="_lWRKkANHEemm7J1sf3ZzUA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_8DSVEANHEemm7J1sf3ZzUA" name="Lifeline1" represents="_o3tmIANJEemm7J1sf3ZzUA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_q0_yMANJEemm7J1sf3ZzUA" name="Lifeline3"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_rLltQANJEemm7J1sf3ZzUA" name="Lifeline4"/>
+  </packagedElement>
+</uml:Model>

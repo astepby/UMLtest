@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_sNMmIANHEemm7J1sf3ZzUA" type="emftree" name="Emf Tree"/>
+  <notation:Diagram xmi:id="_5zjuIANHEemm7J1sf3ZzUA" type="PapyrusUMLSequenceDiagram" name="NewSequenceDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_5zjuIQNHEemm7J1sf3ZzUA" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_5zjuIgNHEemm7J1sf3ZzUA" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_5zjuIwNHEemm7J1sf3ZzUA" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_8DbfAANHEemm7J1sf3ZzUA" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_8DcGEANHEemm7J1sf3ZzUA" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="UMLtestModel.uml#_8DSVEANHEemm7J1sf3ZzUA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DbfAQNHEemm7J1sf3ZzUA" x="74" y="10"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_q1C1gANJEemm7J1sf3ZzUA" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_q1C1ggNJEemm7J1sf3ZzUA" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="UMLtestModel.uml#_q0_yMANJEemm7J1sf3ZzUA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1C1gQNJEemm7J1sf3ZzUA" x="294" y="10"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_rLp-sANJEemm7J1sf3ZzUA" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_rLqlwANJEemm7J1sf3ZzUA" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="UMLtestModel.uml#_rLltQANJEemm7J1sf3ZzUA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rLp-sQNJEemm7J1sf3ZzUA" x="554" y="10"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5zjuJANHEemm7J1sf3ZzUA"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="UMLtestModel.uml#_3ovcYANHEemm7J1sf3ZzUA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5zjuJQNHEemm7J1sf3ZzUA"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_5zjuJgNHEemm7J1sf3ZzUA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5zjuJwNHEemm7J1sf3ZzUA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_5zjuKANHEemm7J1sf3ZzUA" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Class" href="UMLtestModel.uml#_lWRKkANHEemm7J1sf3ZzUA"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="UMLtestModel.uml#_3ovcYANHEemm7J1sf3ZzUA"/>
+  </notation:Diagram>
+</xmi:XMI>
